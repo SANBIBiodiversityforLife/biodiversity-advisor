@@ -81,6 +81,8 @@ An example of how to use CSS to display an image as a background of an HTML elem
   display: none;
 }
 #menu-primary>li {
+    overflow: hidden;
+    padding-bottom: 14px;
 }
 #menu-primary>li>a {
   color: white;
@@ -90,6 +92,8 @@ An example of how to use CSS to display an image as a background of an HTML elem
   margin-left: 1px;
   margin-right: 1px;
   background-color: #383838;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
 }
 #menu-primary>li>a:hover, #menu-primary>li>a:focus, #menu-primary>li.active>a, #menu-primary>li.current-page-ancestor>a {
   background-color: #5e9e62;
